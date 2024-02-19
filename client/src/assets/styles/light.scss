@@ -1,0 +1,41 @@
+.light {
+  --background: #fff;
+  --text: #3e3e3e;
+
+  --btn-gradient-1: #8360C3;
+  --btn-gradient-2: #2EBF91;
+  --btn-border: #C9FFEE;
+  --btn-shadow: rgba(87, 87, 87, 0.27);
+  --btn-text: #2e2e2e;
+  --btn-hover-shadow: 0 0 0 transparent;
+  --btn-hover-border: #ffc9c9;
+  --btn-disabled-border: #777;
+  --btn-disabled-text: #b8b8b8;
+  --btn-stat-text: #5e5e5e;
+  --btn-disabled-background: #8d8d8d;
+  --btn-comingsoon-text: #4a4a4a;
+
+  --select-all-active: #2EBF91;
+  --select-all-inactive-checkbox-border: #2e2e2e;
+
+  --person-option-btn-inactive-background: transparent;
+  --person-option-btn-inactive-text: #2e2e2e;
+  --person-option-btn-active-text: #2e2e2e;
+
+  --person-quiz-stat-suffix-text: #505050;
+  --person-quiz-background: #e3e3e3;
+  --person-quiz-input-background: transparent;
+  --person-quiz-input-text: #2e2e2e;
+  --person-quiz-correct: #2EBF91;
+  --person-quiz-wrong: #FF2674;
+
+  --ctd-gradient-1: rgb(138, 35, 135);
+  --ctd-gradient-2: rgb(233, 64, 87);
+  --ctd-gradient-3: rgb(242, 113, 33);
+  --ctd-border: #e3e3e3;
+
+  --person-submenu-dropdown-background: rgba(45, 45, 45, 0.8);
+
+  --footer-background: #F7F7F7;
+  --footer-text: #3e3e3e;
+}

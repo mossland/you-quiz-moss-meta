@@ -1,0 +1,38 @@
+.btn-type-1 {
+  background: linear-gradient(90.57deg, var(--btn-gradient-1) 0.14%, var(--btn-gradient-2) 100%);
+  border: 2px solid var(--btn-border);
+  box-shadow: 3px 2px 6px var(--btn-shadow);
+  border-radius: 9px;
+  outline: 0;
+  color: var(--btn-text);
+  font-family: jamsil;
+  font-weight: 400;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: var(--btn-hover-shadow);
+    border: 2px solid var(--btn-hover-border);
+  }
+  &:disabled {
+    cursor: not-allowed;
+    border: 2px solid var(--btn-disabled-border);
+    color: var(--btn-disabled-text);
+    background: var(--btn-disabled-background);
+    box-shadow: 0 0 0 transparent;
+  }
+
+  &.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:after {
+      content: 'COMING\ASOON';
+      transform: translateY(2px);
+      white-space: pre-wrap;
+      font-size: 10px;
+      color: var(--btn-comingsoon-text);
+      text-align: left;
+      margin-left: 10px;
+    }
+  }
+}
